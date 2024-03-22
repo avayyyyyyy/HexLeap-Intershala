@@ -11,7 +11,7 @@ const sportsData = [
   },
   {
     id: 2,
-    imageSrc: "/lasvegas.png",
+    imageSrc: "/Lasvegas.png",
     title: "Las Vegas Aviators",
     totalEvents: 28,
     sportType: "Baseball",
@@ -25,7 +25,7 @@ const sportsData = [
   },
   {
     id: 4,
-    imageSrc: "/lasvegas.png",
+    imageSrc: "/Lasvegas.png",
     title: "Sacramento River Cats",
     totalEvents: 48,
     sportType: "Baseball",
