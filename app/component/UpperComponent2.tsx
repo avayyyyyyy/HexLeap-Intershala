@@ -11,11 +11,11 @@ const spotlightData = [
     collection: "Take Flight Collection",
   },
   {
-    imageSrc: "/image.png",
-    title: "Las Vegas Aviators",
+    imageSrc: "/image2.png",
+    title: "Sacramento River Cats",
     date: "Oct 15 | Sun | 4:30 PM",
-    location: "Las Vegas Ballpark, Las Vegas, Nevada",
-    collection: "Take Flight Collection",
+    location: "Sutter Health Park, Sacramento, California",
+    collection: "Orange Collection",
   },
   {
     imageSrc: "/image.png",
@@ -25,11 +25,11 @@ const spotlightData = [
     collection: "Take Flight Collection",
   },
   {
-    imageSrc: "/image.png",
-    title: "Las Vegas Aviators",
+    imageSrc: "/image2.png",
+    title: "Sacramento River Cats",
     date: "Oct 15 | Sun | 4:30 PM",
-    location: "Las Vegas Ballpark, Las Vegas, Nevada",
-    collection: "Take Flight Collection",
+    location: "Sutter Health Park, Sacramento, California",
+    collection: "Orange Collection",
   },
   {
     imageSrc: "/image.png",
@@ -67,8 +67,8 @@ const SpotlightCard = ({
   location: string;
   collection: string;
 }) => (
-  <div className="bg-[#3B3E47] mx-auto shadow-lg w-[237px] py-2">
-    <div className="h-[385.31px] min-w-52 relative p-0">
+  <div className="bg-[#3B3E47] mx-auto shadow-lg w-[237px] py-3">
+    <div className="h-[385.31px] min-w-56 relative p-0">
       <Image
         src={imageSrc}
         layout="fill"
